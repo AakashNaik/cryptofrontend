@@ -3,6 +3,7 @@ import {newLogin} from './actions/login';
 import {logout} from './actions/logout';
 import {useEffect} from 'react';
 import { connect } from "react-redux";
+
 function App({newLogin, logout, data}) {
   console.debug('debug1');
   const owneraddr  = 'rfr';
